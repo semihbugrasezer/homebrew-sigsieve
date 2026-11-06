@@ -1,0 +1,14 @@
+Formula/sigsieve.rb
+  h_97f930f93c2fe3 7-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7097a76b3b9b85c45edb3de7f73943c266cf97f8",
+  "prompts": {},
+  "humans": {
+    "h_97f930f93c2fe3": {
+      "author": "Semih Buğra Sezer <semih.b.sezer@gmail.com>"
+    }
+  }
+}
