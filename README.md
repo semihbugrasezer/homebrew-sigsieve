@@ -3,7 +3,7 @@
 Homebrew tap for [SigSieve](https://github.com/semihbugrasezer/sigsieve), a
 local SSH-agent filtering proxy that forwards only allowlisted identities.
 
-> **Experimental pre-release. Not independently audited.** Read the
+> **Stable release (v1.0.0). Not independently audited.** Read the
 > [security model](https://github.com/semihbugrasezer/sigsieve/blob/main/docs/SECURITY_MODEL.md)
 > and [limitations](https://github.com/semihbugrasezer/sigsieve/blob/main/docs/LIMITATIONS.md)
 > before use, and keep ordinary SSH access available.
