@@ -34,14 +34,18 @@ build provenance, install the attested release binaries as described in the
 
 ## Upgrade
 
+How this was verified: an upgrade from `v0.1.0-alpha.4` to `1.0.0` passed
+(maintainer-reported; the exact command was not recorded). That a full-name
+`brew upgrade` also trusts the formula is based on Homebrew's source
+(`cmd/upgrade.rb`), not on a recorded run. With that caveat, upgrade with the
+full name:
+
 ```sh
 brew update && brew upgrade semihbugrasezer/sigsieve/sigsieve
 sigsieve --version
 ```
 
-Expected: `sigsieve 1.0.0` for the current formula. An upgrade from
-`v0.1.0-alpha.4` to `1.0.0` passed (maintainer-reported; the exact command was
-not recorded). Homebrew 7 also trusts a formula named in full on upgrade.
+Expected: `sigsieve 1.0.0` for the current formula.
 
 ## Uninstall
 
