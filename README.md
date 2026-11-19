@@ -17,11 +17,12 @@ sigsieve --version
 
 Expected: `sigsieve 1.0.0`.
 
-Use the full name `semihbugrasezer/sigsieve/sigsieve`. Homebrew 7 then trusts
-this one formula, not the whole tap. According to Homebrew's source
-(`trust.rb`), it prints `Trusted formula semihbugrasezer/sigsieve/sigsieve`
-only the first time the formula is trusted; this message was not captured
-from a 1.0.0 install log. This is the tested
+Use the full name `semihbugrasezer/sigsieve/sigsieve`. According to
+Homebrew 7's source (examined at 7.0.15: `trust.rb`, `cmd/install.rb`), a
+full-name install then trusts this one formula, not the whole tap, and prints
+`Trusted formula semihbugrasezer/sigsieve/sigsieve` only the first time the
+formula is trusted. This is not a guarantee for every Homebrew version, and
+the message was not captured from a 1.0.0 install log. This is the tested
 install path. Other paths, such as `brew tap` followed by a short-name
 install, are not tested.
 
