@@ -22,8 +22,11 @@ Homebrew 7's source (examined at 7.0.15: `trust.rb`, `cmd/install.rb`), a
 full-name install then trusts this one formula, not the whole tap, and prints
 `Trusted formula semihbugrasezer/sigsieve/sigsieve` only the first time the
 formula is trusted. This is not a guarantee for every Homebrew version, and
-the message was not captured from a 1.0.0 install log. This is the tested
-install path. Other paths, such as `brew tap` followed by a short-name
+the message was not captured from a 1.0.0 install log. The full-name install
+is the tested install path: recorded for the alpha.4 formula (section "Test
+evidence for alpha.4" in
+[`packaging/homebrew/README.md`](https://github.com/semihbugrasezer/sigsieve/blob/main/packaging/homebrew/README.md))
+and maintainer-reported for 1.0.0, with no published log. Other paths, such as `brew tap` followed by a short-name
 install, are not tested.
 
 The formula builds the tagged release from source with `cargo install
